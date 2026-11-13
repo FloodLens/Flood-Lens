@@ -1,0 +1,14 @@
+# ==============================================================================
+# FloodLens — Root Python Dependencies
+# Comprehensive environment requirements for GeoAI analysis, notebooks, and services
+# ==============================================================================
+
+# Core backend service dependencies
+-r backend/requirements.txt
+
+# Testing & Coverage Scaffolding
+pytest-cov>=4.1.0
+
+# Notebooks & Visualisation Scaffolding
+ipykernel>=6.29.0
+matplotlib>=3.8.0
